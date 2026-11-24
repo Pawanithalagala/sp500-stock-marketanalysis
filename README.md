@@ -9,7 +9,7 @@ Analysis of S&P 500 stocks using weekly returns, beta, and RFM techniques to ide
 ## Key settings
 - Study period: 2021-01-01 to 2025-01-01
 - RFM observation date: 2024-12-31
-- Constituent list retrieved from Wikipedia on 2026-11-24; prices from Yahoo Finance via yfinance
+- Constituent list retrieved from Wikipedia on 2026-11-24, prices from Yahoo Finance via yfinance
 - Benchmark: ^GSPC
 - 503 shares listed, 486 retained after validation (exclusion log in `outputs/`)
 - 207 aligned Friday-ending weekly returns
