@@ -1,0 +1,14 @@
+{
+  "study_start": "2021-01-01",
+  "study_end_exclusive": "2025-01-01",
+  "benchmark": "^GSPC",
+  "price_fields": "auto_adjust=False; Close, Adj Close and Volume saved",
+  "why_yfinance": "gives adjusted prices and volume, no API key needed; unofficial (limitation)",
+  "live_download_this_run": true,
+  "failed_batches": [],
+  "task_1_2": {
+    "week_rule": "W-FRI last adj close; incomplete first/final weeks dropped; holiday weeks kept",
+    "aligned_weekly_obs": 207,
+    "final_shares": 486
+  }
+}
